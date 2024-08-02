@@ -1,97 +1,120 @@
 import React from 'react'
+
 import Team from './Team.jsx';
-// import React from "react";
+import {
+  CCarousel,
+  CCarouselItem,
+  CCarouselCaption,
+  CImage,
+} from "@coreui/react";
 
 export default function About() {
-const imgList = [
-	{
-		src: "https://cdn.easyfrontend.com/pictures/logos/white-cnn-logo.png",
-	},
-	{
-		src: "https://cdn.easyfrontend.com/pictures/logos/white-google-logo.png",
-	},
-	{
-		src: "https://cdn.easyfrontend.com/pictures/logos/white-amazon-logo.png",
-	},
-	{
-		src: "https://cdn.easyfrontend.com/pictures/logos/white-google-logo.png",
-	},
-	{
-		src: "https://cdn.easyfrontend.com/pictures/logos/white-fedex-logo.png",
-	},
-];
-
-
     return (
-        <div className="py-16 bg-white">
-            
-           
-
-
-		<header
-			className="ezy__header33 light bg-cover bg-right bg-no-repeat text-white relative flex justify-center items-center  md:py-48 z-[1]"
-			style={{
-				backgroundImage:
-					"url(https://cdn.easyfrontend.com/pictures/hero/header33-bg.jpg)",
-			}}
-		>
-			<div
-				className="absolute top-0 left-0 right-0 bottom-0 -z-[1]"
-				style={{
-					background:
-						"linear-gradient(130deg, rgba(13, 110, 253, 0.35), rgba(0, 0, 0, 0.631))",
-				}}
-			></div>
-			<div className="container px-4">
-				<div className="grid grid-cols-12">
-					<div className="col-span-12 md:col-span-9 lg:col-span-7 xl:col-span-6">
-						<h2 className="text-[32px] leading-snug md:text-8xl font-bold tracking-wider mb-6">
-							The Desert is my DNA
-						</h2>
-						<p className="text-lg leading-relaxed mb-12 md:mr-32 lg:mr-52">
-							An activity that requires a person's mental or physical effort is
-							work.If a person is trained for a certain type of job, they may
-							have a job or profession which suits.
-						</p>
-						<div className="md:mr-40 lg:mr-72">
-							<button className="py-4 px-8 text-bold bg-white text-black font-bold hover:bg-opacity-80 rounded-full w-full">
-								Know More about us
-							</button>
-						</div>
-					</div>
-				</div>
-				<div className="absolute bottom-4 md:bottom-12 left-1/2 w-full -translate-x-1/2">
-					<div className="flex flex-wrap gap-6 items-center justify-center mt-12">
-						{imgList.map((item, i) => (
-							<img
-								src={item.src}
-								alt=""
-								key={i}
-								className="max-h-6 mx-4 opacity-75 duration-500 lg:max-h-14 pr-12"
-							/>
-						))}
-					</div>
-				</div>
-			</div>
-		</header>
-	
-
-
-
-            
-
+        <div className=" bg-white">
+			<div className="mx-auto w-full max-w-7xl">
+        <div>
+          <div class="relative w-full bg-white">
+            <div class="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
+              <div class="flex flex-col justify-center px-2 py-6 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-4 lg:py-6 xl:col-span-6">
+                <div class="cursor-pointer mt-4 flex max-w-max items-center space-x-2 rounded-full bg-red-950 p-1">
+                  <div class="rounded-full bg-white p-1 px-3">
+                    <p class="text-sm font-medium mt-3 text-orange-500 ">EXPLORE→</p>
+                  </div>
+                  <p class="text-sm font-medium mt-3 text-white px-1">
+                    Join our team{" "}
+                  </p>
+                </div>
+                <h1 class="mt-8 text-3xl font-bold tracking-tight text-red-950 md:text-4xl lg:text-6xl">
+                  Virtual Visit To Indinan Pilgrimage
+                </h1>
+                <p class="mt-8 text-lg text-red-950 ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur modi blanditiis dolores quasi eaque explicabo!
+                </p>
+                <form action="" class="mt-8 flex items-start space-x-2">
+                  <div>
+                    <input
+                      class="flex w-full rounded-md border border-black/30 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+                      type="email"
+                      placeholder="Enter your email"
+                      id="email"
+                    />
+                    <p class="mt-2 text-sm text-orange-500">
+                      We care about your privacy
+                    </p>
+                  </div>
+                  <div>
+                    <button
+                      type="button"
+                      class="rounded-md bg-black px-3 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                    >
+                      Subscribe
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="  rounded-3xl mt-12 relative lg:col-span-5 lg:-mr-8 xl:col-span-6">
+                <CCarousel controls indicators dark >
+                  <CCarouselItem>
+                    <CImage
+                      className=" d-block w-100"
+                      src="hero1.webp"
+                      alt="slide 1"
+                    />
+                    <CCarouselCaption className="text-white d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>
+                        Some representative placeholder content for the first
+                        slide.
+                      </p>
+                    </CCarouselCaption>
+                  </CCarouselItem>
+                  <CCarouselItem>
+                    <CImage
+                      className="d-block w-100"
+                      src="hero1.webp"
+                      alt="slide 2"
+                    />
+                    <CCarouselCaption className="text-white  d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>
+                        Some representative placeholder content for the first
+                        slide.
+                      </p>
+                    </CCarouselCaption>
+                  </CCarouselItem>
+                  <CCarouselItem>
+                    <CImage
+                      className="d-block w-100"
+                      src="hero3.webp"
+                      alt="slide 3"
+                    />
+                    <CCarouselCaption className="text-white d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>
+                        Some representative placeholder content for the first
+                        slide.
+                      </p>
+                    </CCarouselCaption>
+                  </CCarouselItem>
+                </CCarousel>  
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
 
             <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                 <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                     <div className="md:5/12 lg:w-5/12">
                         <img
-                            src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
+                            src="https://imgcld.yatra.com/ytimages/image/upload/v1461929822/Delhi-Akshardham_Temple.jpg "
                             alt="image"
                         />
                     </div>
                     <div className="md:7/12 lg:w-6/12">
                         <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
-                            React development is carried out by passionate developers
+                            Drishti Dham platform is about to Temples information
                         </h2>
                         <p className="mt-6 text-gray-600">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
