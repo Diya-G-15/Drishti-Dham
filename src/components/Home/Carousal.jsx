@@ -23,7 +23,7 @@ const Carousal = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 700,
     autoplay: true,
     autoplaySpeed: 1000,
     slidesToShow: 1,
@@ -39,7 +39,7 @@ const Carousal = () => {
   ];
 
   return (
-    <section className="relative text-white">
+    <section className="relative text-white ">
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index} className="h-screen relative">

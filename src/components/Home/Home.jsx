@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import TempleSlider from "../TempleSlider/TempleSlider"
 
 import {
   CCarousel,
@@ -12,16 +13,14 @@ import "@coreui/coreui/dist/css/coreui.min.css";
 import AutoSliderCarousel from "./AutoSliderCarousel";
 import Carousal from "./Carousal";
 import Separator from "../Separator/separator";
-// import JyotirlingaCarousal from "../Jyotirlinga/JyotirlingaCarousal";
-// import TempleSlider from "../TempleSlider/TempleSlider";
-// import JyotirlingaList from "../Jyotirlinga/JyotirlingaList";
+
 
 export default function Home() {
   return (
-    <>
+    <div className="">
     <Carousal/>
     <Separator/>
-    {/* <TempleSlider/> */}
+    <TempleSlider/>
     {/* <JyotirlingaCarousal/> */}
     {/* <JyotirlingaList/> */}
 
@@ -123,6 +122,6 @@ export default function Home() {
           
         </div>
       </div>
-    </>
+    </div>
   );
 }

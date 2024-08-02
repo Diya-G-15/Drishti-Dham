@@ -12,6 +12,7 @@ import Login from './pages/Login.jsx'
 import Register from './pages/Register.jsx'
 import Profile from './pages/Profile.jsx'
 import Blog from './components/Blog/Blog.jsx'
+import TempleInfo from './components/TempleInfo/TempleInfo.jsx'
 
 
 const router= createBrowserRouter([
@@ -58,7 +59,11 @@ const router= createBrowserRouter([
       {
         path:'github',
         element:<Github/>
-      }
+      },
+      {
+        path:'temple/:templeId',
+        element:<TempleInfo/>
+      },
       
     ]
   }

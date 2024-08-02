@@ -8,10 +8,10 @@ export default function Header() {
         <header className="shadow sticky z-50 top-0 bg-red-950">
             <nav className="border-gray-200 px-4 lg:px-6">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-                    <Link to="/" className="flex items-center">
+                    <Link to="/" className="flex items-center align-middle">
                         <img
                             src="DrishtiDhamLogo.png"
-                            className="mr-3 h-14"
+                            className="mr-3 h-[80px]"
                             alt="Logo"
                         />
                     </Link>

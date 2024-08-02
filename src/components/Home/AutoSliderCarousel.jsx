@@ -22,7 +22,7 @@ const AutoSliderCarousel = () => {
   ];
 
   return (
-    <div className="w-full mx-auto relative">
+    <div className="w-full mx-auto relative ">
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index} className="relative h-96 flex items-center justify-center">
