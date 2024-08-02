@@ -13,19 +13,20 @@ import Register from './pages/Register.jsx'
 import Profile from './pages/Profile.jsx'
 import Blog from './components/Blog/Blog.jsx'
 import TempleInfo from './components/TempleInfo/TempleInfo.jsx'
+import App from './App.jsx'
 
 
 const router= createBrowserRouter([
   {
     path:'/',
-    element:<Layout/>,
+    element:<App/>,
     children:[
+      // {
+      //   path:"",
+      //   element:<Login/>
+      // },
       {
-        path:"",
-        element:<Login/>
-      },
-      {
-        path:"home",
+        path:"/",
         element:<Home/>
       },
       {

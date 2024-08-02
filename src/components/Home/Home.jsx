@@ -21,8 +21,8 @@ export default function Home() {
     <div className="">
     <Carousal/>
     <Separator/>
-    <ChaarDham/>
     <TempleSlider/>
+    <ChaarDham/>
     {/* <JyotirlingaCarousal/> */}
     {/* <JyotirlingaList/> */}
 

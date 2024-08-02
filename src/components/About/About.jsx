@@ -3,23 +3,7 @@ import Team from './Team.jsx';
 // import React from "react";
 
 export default function About() {
-const imgList = [
-	{
-		src: "https://cdn.easyfrontend.com/pictures/logos/white-cnn-logo.png",
-	},
-	{
-		src: "https://cdn.easyfrontend.com/pictures/logos/white-google-logo.png",
-	},
-	{
-		src: "https://cdn.easyfrontend.com/pictures/logos/white-amazon-logo.png",
-	},
-	{
-		src: "https://cdn.easyfrontend.com/pictures/logos/white-google-logo.png",
-	},
-	{
-		src: "https://cdn.easyfrontend.com/pictures/logos/white-fedex-logo.png",
-	},
-];
+
 
 
     return (
@@ -61,16 +45,6 @@ const imgList = [
 					</div>
 				</div>
 				<div className="absolute bottom-4 md:bottom-12 left-1/2 w-full -translate-x-1/2">
-					<div className="flex flex-wrap gap-6 items-center justify-center mt-12">
-						{imgList.map((item, i) => (
-							<img
-								src={item.src}
-								alt=""
-								key={i}
-								className="max-h-6 mx-4 opacity-75 duration-500 lg:max-h-14 pr-12"
-							/>
-						))}
-					</div>
 				</div>
 			</div>
 		</header>
