@@ -5,19 +5,39 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const SearchForm = () => (
+// const SearchForm = () => (
   
-  <form className="w-full flex justify-center items-center rounded-xl overflow-hidden mx-auto bg-white shadow-md">
-  <input
-    type="email"
-    className="px-7 py-3 grow focus:outline-none"
-    placeholder="Enter Email"
-  />
-  <button className="flex justify-center items-center text-white text-[22px] py-3 px-7 border border-blue-600 bg-blue-600 hover:bg-opacity-90 hover:border-opacity-90 duration-300">
-    <FontAwesomeIcon icon={faSearch} />
-  </button>
-</form>
+//   <form className="text-orange-800 w-full flex justify-center items-center rounded-xl overflow-hidden mx-auto bg-white shadow-md">
+//   <input
+//     type="email"
+//     className="px-7 py-3 grow focus:outline-none"
+//     placeholder="Enter email"
+//   />
+//   <button className="flex justify-center items-center text-white text-[22px] py-3 px-7 border border-blue-600 bg-blue-600 hover:bg-opacity-90 hover:border-opacity-90 duration-300">
+//     <FontAwesomeIcon icon={faSearch} />
+//   </button>
+// </form>
+// );
+// const QuoteOfTheDay = () => (
+//   <div className="text-center bg-white text-red-900 p-3 rounded-xl shadow-md">
+//     <h2 className="text-3xl font-semibold mb-4 ">Quote of the Day</h2>
+//     <p className="text-xl  italic">
+//     "A temple is a place where one can feel the divine presence and find peace and solace." - Anonymous
+//     </p>
+//   </div>
+// );
+const QuoteOfTheDay = () => (
+  <div className="text-center  text-white p-3 rounded-xl shadow-md">
+    <h2 className="text-4xl font-semibold mb-4 ">Quote of the Day</h2>
+    <p className="text-2xl  italic">
+    "A temple is a place where one can feel the divine presence and find peace and solace." - Anonymous
+    </p>
+  </div>
 );
+
+
+
+
 
 const Carousal = () => {
   const settings = {
@@ -57,7 +77,9 @@ const Carousal = () => {
                     Discover the beauty of Indian Pilgrimage with DrishtiDham
                   </p>
                   <div className="sm:max-w-lg mx-auto flex justify-center">
-                    <SearchForm />
+                    {/* <SearchForm /> */}
+                    <QuoteOfTheDay/>
+                    
                   </div>
                 </div>
               </div>
