@@ -16,7 +16,7 @@ const TempleInfo = () => {
 		temple = temples[templeId];
 	}
 	else {
-		temple = charDham[Id - 1];
+		temple = charDham[Id-1];
 	}
 
 	const ref = useRef(null)
