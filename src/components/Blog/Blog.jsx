@@ -109,6 +109,7 @@ function Blog() {
           </div>
         )}
       </div>
+     <img src="calenear.webp"></img>
     </div>
   );
 }
