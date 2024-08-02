@@ -48,7 +48,7 @@ export const temples = [
     prashad: "Chana Dal, Rice",
     establishment: "Fourth Jyotirlinga",
     keyInformation: "Omkareshwar is situated on an island in the Kaveri River and is known for its Om-shaped island.",
-    image: "/images/omkareshwar.png" // Image path
+    image: "/images/omkareshwar.jpeg" // Image path
   },
   {
     name: "Kedarnath",

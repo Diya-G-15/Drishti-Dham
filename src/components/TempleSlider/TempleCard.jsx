@@ -14,7 +14,7 @@ const TempleCard = ({ temple, refId }) => {
           <h2 className="text-2xl font-bold mb-2">{temple.name}</h2>
           <p className="text-gray-700 mb-2"><strong>Location:</strong> {temple.location}</p>
           <p className="text-gray-700 mb-2"><strong>Opening Time:</strong> {temple.openingTiming}</p>
-          <p className="text-gray-700 mb-2"><strong>Closing Time:</strong> {temple.closingTiming}</p>
+           {temple.closingTiming!=="N/A"&&<p className="text-gray-700 mb-2"><strong>Closing Time:</strong> {temple.closingTiming}</p>}
           <p className="text-gray-700 mb-2"><strong>Prashad:</strong> {temple.prashad}</p>
           <p className="text-gray-700 mb-2"><strong>Establishment:</strong> {temple.establishment}</p>
           <p className="text-gray-700 mb-2"><strong>Key Information:</strong> {temple.keyInformation}</p>

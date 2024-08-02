@@ -13,6 +13,7 @@ import "@coreui/coreui/dist/css/coreui.min.css";
 import AutoSliderCarousel from "./AutoSliderCarousel";
 import Carousal from "./Carousal";
 import Separator from "../Separator/separator";
+import ChaarDham from "../ChaarDham/ChaarDham";
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
     <div className="">
     <Carousal/>
     <Separator/>
+    <ChaarDham/>
     <TempleSlider/>
     {/* <JyotirlingaCarousal/> */}
     {/* <JyotirlingaList/> */}
