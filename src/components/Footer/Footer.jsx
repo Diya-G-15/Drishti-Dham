@@ -18,18 +18,18 @@ export default function Footer() {
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-orange-300 uppercase">Resources</h2>
                             <ul className="text-gray-500 font-medium">
-                                <li className="mb-1">
-                                    <Link to="/" className="hover:underline text-white">
+                                <li className="">
+                                    <Link to="/" className=" no-underline hover:underline text-white">
                                         Home
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/about" className="hover:underline text-white">
+                                    <Link to="/about" className="no-underline hover:underline text-white">
                                         About
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/contact" className="hover:underline text-white">
+                                    <Link to="/contact" className=" no-underline hover:underline text-white">
                                         Contact
                                     </Link>
                                 </li>
@@ -38,10 +38,10 @@ export default function Footer() {
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-orange-300 uppercase">Follow us</h2>
                             <ul className="text-gray-500 font-medium">
-                                <li className="mb-4 ">
+                                <li className=" ">
                                     <a
                                         href="https://github.com/AKASH-CODEtoCRACK/Drishti-Dham"
-                                        className="hover:underline text-white"
+                                        className=" no-underline hover:underline text-white"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
@@ -51,7 +51,7 @@ export default function Footer() {
                                 <li>
                                 <a
                                         href="https://www.linkedin.com/in/akashtiwari--/"
-                                        className="hover:underline text-white"
+                                        className="hover:underline text-white no-underline"
                                         target="_blank"
                                         rel="noreferrer"
                                     >LinkedIn</a>
@@ -61,13 +61,13 @@ export default function Footer() {
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-orange-300 uppercase">Legal</h2>
                             <ul className="text-gray-500 font-medium">
-                                <li className="mb-4">
-                                    <Link to="#" className="hover:underline text-white">
+                                <li className="4">
+                                    <Link to="#" className="hover:underline no-underline text-white">
                                         Privacy Policy
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="#" className="hover:underline text-white">
+                                    <Link to="#" className="hover:underline text-white no-underline">
                                         Terms &amp; Conditions
                                     </Link>
                                 </li>
@@ -85,7 +85,7 @@ export default function Footer() {
                         . All Rights Reserved.
                     </span>
                     <div className=" flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-                        <Link to="#" className="text-white hover:text-gray-900">
+                        <Link to="#" className="text-white hover:text-gray-900 no-underline">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -101,7 +101,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Facebook page</span>
                         </Link>
-                        <Link to="#" className="text-white ">
+                        <Link to="#" className="text-white no-underline ">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -113,7 +113,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Discord community</span>
                         </Link>
-                        <Link to="#" className="text-white">
+                        <Link to="#" className="text-white no-underline">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -129,7 +129,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Twitter page</span>
                         </Link>
-                        <Link to="#" className="text-white">
+                        <Link to="#" className="text-white no-underline">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -145,7 +145,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">GitHub account</span>
                         </Link>
-                        <Link to="#" className="text-white">
+                        <Link to="#" className="text-white no-underline">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"

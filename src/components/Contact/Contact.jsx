@@ -14,7 +14,7 @@ export default function Contact() {
                                 Fill in the form to start a conversation
                             </p>
 
-                            <div className="flex items-center mt-8 text-gray-600">
+                            {/* <div className="flex items-center mt-8 text-gray-600">
                                 <svg
                                     fill="none"
                                     stroke="currentColor"
@@ -40,7 +40,7 @@ export default function Contact() {
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
                                     GJUS&T BH1 Hisar, Haryana, 125001
                                 </div>
-                            </div>
+                            </div> */}
 
                             <div className="flex items-center mt-4 text-gray-600">
                                 <svg
@@ -60,7 +60,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    +91 9507755863
+                                    9999999999
                                 </div>
                             </div>
 
@@ -82,7 +82,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    project.akashofficial@gmail.com
+                                    drishtidham@gmail.com
                                 </div>
                             </div>
                         </div>

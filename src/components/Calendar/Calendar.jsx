@@ -16,7 +16,7 @@ const monthsDict = [
   { number: 12, name: 'December' }
 ];
 
-function Blog() {
+function Calendar() {
   const [festivals, setFestivals] = useState([]);
   const [year, setYear] = useState('2024');
   const [month, setMonth] = useState('');
@@ -88,7 +88,7 @@ function Blog() {
       </div>
       <div className="w-full max-w-4xl">
         {festivals.length === 0 ? (
-          <p className="text-center text-lg text-gray-500">No festivals found.</p>
+          <p className="text-center text-lg text-gray-500">Loading...</p>
         ) : (
           <div>
             {monthsDict.map((m) => {
@@ -109,9 +109,9 @@ function Blog() {
           </div>
         )}
       </div>
-     <img src="/images/calendar1.png" alt="img"></img>
+     <img src="/images/calender.webp" alt="img"></img>
     </div>
   );
 }
 
-export default Blog;
+export default Calendar;

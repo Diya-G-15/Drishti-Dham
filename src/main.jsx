@@ -11,9 +11,10 @@ import Github from './components/Github/Github.jsx'
 import Login from './pages/Login.jsx'
 import Register from './pages/Register.jsx'
 import Profile from './pages/Profile.jsx'
-import Blog from './components/Blog/Blog.jsx'
+// import Blog from './components/Blog/Blog.jsx'
 import TempleInfo from './components/TempleInfo/TempleInfo.jsx'
 import App from './App.jsx'
+import Calendar from './components/Calendar/Calendar.jsx'
 
 
 const router= createBrowserRouter([
@@ -50,8 +51,8 @@ const router= createBrowserRouter([
         element:<Profile/>
       },
       {
-        path:'blog',
-        element:<Blog/>
+        path:'calendar',
+        element:<Calendar/>
       },
       {
         path:'user/:user_Id',

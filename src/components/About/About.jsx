@@ -25,7 +25,7 @@ export default function About() {
                   </p>
                 </div>
                 <h1 class="mt-8 text-3xl font-bold tracking-tight text-red-950 md:text-4xl lg:text-6xl">
-                  Virtual Visit To Indinan Pilgrimage
+                  Virtual Visit To Indian Pilgrimage
                 </h1>
                 <p class="mt-8 text-lg text-red-950 ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -62,10 +62,9 @@ export default function About() {
                       alt="slide 1"
                     />
                     <CCarouselCaption className="text-white d-none d-md-block">
-                      <h5>First slide label</h5>
+                      <h5></h5>
                       <p>
-                        Some representative placeholder content for the first
-                        slide.
+                        
                       </p>
                     </CCarouselCaption>
                   </CCarouselItem>
@@ -76,10 +75,9 @@ export default function About() {
                       alt="slide 2"
                     />
                     <CCarouselCaption className="text-white  d-none d-md-block">
-                      <h5>Second slide label</h5>
+                      <h5></h5>
                       <p>
-                        Some representative placeholder content for the first
-                        slide.
+                       
                       </p>
                     </CCarouselCaption>
                   </CCarouselItem>
@@ -90,10 +88,9 @@ export default function About() {
                       alt="slide 3"
                     />
                     <CCarouselCaption className="text-white d-none d-md-block">
-                      <h5>Third slide label</h5>
+                      <h5></h5>
                       <p>
-                        Some representative placeholder content for the first
-                        slide.
+                       
                       </p>
                     </CCarouselCaption>
                   </CCarouselItem>
@@ -115,7 +112,7 @@ export default function About() {
                     </div>
                     <div className="text-red-950 md:7/12 lg:w-6/12">
                         <h2 className="text-2xl  font-bold md:text-4xl">
-                            Drishti Dham platform is about to Temples information
+                            Drishti Dham platform is about the Temples information
                         </h2>
                         <p className="mt-6 ">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
