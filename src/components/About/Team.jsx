@@ -3,15 +3,11 @@ import PropTypes from "prop-types";
 
 const teamMembers = [
 	{
-		img: "/images/AkashTiwari.jpg",
+		img: "/TeamImages/AkashTiwari.jpg",
 		name: "Akash Tiwari",
 		designation: "MERN-stack Developer",
 	},
-	{
-		img: "/images/simran.jpg",
-		name: "Simran ",
-		designation: "Web Developer",
-	},
+	
 	
 ];
 

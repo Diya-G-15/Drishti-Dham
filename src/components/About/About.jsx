@@ -57,7 +57,7 @@ export default function About() {
                 <CCarousel controls indicators dark >
                   <CCarouselItem>
                     <CImage
-                      className=" d-block w-100"
+                      className=" d-block w-100 rounded-xl"
                       src="hero1.webp"
                       alt="slide 1"
                     />
@@ -71,7 +71,7 @@ export default function About() {
                   </CCarouselItem>
                   <CCarouselItem>
                     <CImage
-                      className="d-block w-100"
+                      className="d-block w-100 rounded-xl"
                       src="hero1.webp"
                       alt="slide 2"
                     />
@@ -85,8 +85,8 @@ export default function About() {
                   </CCarouselItem>
                   <CCarouselItem>
                     <CImage
-                      className="d-block w-100"
-                      src="hero3.webp"
+                      className="d-block w-100 rounded-xl"
+                      src="hero3.webp "
                       alt="slide 3"
                     />
                     <CCarouselCaption className="text-white d-none d-md-block">
@@ -104,24 +104,25 @@ export default function About() {
         </div>
       </div>
 
-            <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+            <div className="container mt-2 m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                 <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-                    <div className="md:5/12 lg:w-5/12">
+                    <div className="md:5/12 lg:w-5/12 ">
                         <img
+                            className='rounded-xl'
                             src="https://imgcld.yatra.com/ytimages/image/upload/v1461929822/Delhi-Akshardham_Temple.jpg "
                             alt="image"
                         />
                     </div>
-                    <div className="md:7/12 lg:w-6/12">
-                        <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
+                    <div className="text-red-950 md:7/12 lg:w-6/12">
+                        <h2 className="text-2xl  font-bold md:text-4xl">
                             Drishti Dham platform is about to Temples information
                         </h2>
-                        <p className="mt-6 text-gray-600">
+                        <p className="mt-6 ">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
                             accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
                             aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
                         </p>
-                        <p className="mt-4 text-gray-600">
+                        <p className="mt-4 ">
                             Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
                             Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
                         </p>
