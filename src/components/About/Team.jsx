@@ -7,6 +7,11 @@ const teamMembers = [
 		name: "Akash Tiwari",
 		designation: "MERN-stack Developer",
 	},
+	{
+		img: "/TeamImages/simran.jpg",
+		name: "Simran",
+		designation: "Front End Web Developer",
+	},
 	
 	
 ];
